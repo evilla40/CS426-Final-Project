@@ -1,7 +1,8 @@
-1 in 10K Game
-Collaborators: Crista Mondragon Rivera, Beini Yang, Elizabeth Villanueva
+#1 in 10K Game
+<br>Collaborators: Crista Mondragon Rivera, Beini Yang, Elizabeth Villanueva
 
 Game Idea:
+<br>
 The game is about a sea turtle surviving the polluted and dangerous sea. It is a 3D game made for a computer (possibly website) where the player is in the 3rd person perspective of a turtle. 
 The primary audience would be for:
 Conservancy organizations
@@ -9,6 +10,7 @@ Kids educational game
 Turtle enthusiast
 
 Formal Elements:
+<br>
 Players
 Single player (Hawksbill sea turtle) vs. game (poachers and environment)
 Objective
