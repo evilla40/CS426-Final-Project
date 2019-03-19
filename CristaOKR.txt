@@ -1,0 +1,4 @@
+First tasks 03/18 - 03/20
+Research how mini maps work Monday by 12pm
+Implement outline of mini map Tuesday by 9pm
+Finish mini map Wednesday before class
