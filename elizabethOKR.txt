@@ -1,0 +1,3 @@
+Collect model and texture files and place them in game environment -- Tues 12pm (1 hour)
+Create scripts for character (player and npc) movement -- Tues 9pm (3 hours)
+Add extra effects/actions to characters/objects -- Tues 11:30pm (2 hours)
