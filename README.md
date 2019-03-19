@@ -1,4 +1,4 @@
-#1 in 10K Game
+##1 in 10K Game
 <br>Collaborators: Crista Mondragon Rivera, Beini Yang, Elizabeth Villanueva
 
 Game Idea:
