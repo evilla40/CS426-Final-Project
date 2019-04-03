@@ -18,7 +18,7 @@ public class SharkController : MonoBehaviour
     {
         transform.Translate(speed * Time.deltaTime, 0, 0);
 
-        if (Mathf.Abs(origX - transform.position.x) > 7.0f)
+        if (Mathf.Abs(origX - transform.position.x) > 22.0f)
         {
             speed *= -1.0f; //change direction
         }

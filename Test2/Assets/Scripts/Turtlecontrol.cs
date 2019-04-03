@@ -9,12 +9,31 @@ public class Turtlecontrol : MonoBehaviour
     public float speed = 25.0f;
     public float rotationSpeed = 90;
     public float force = 700f;
+    public Transform splash;
+    //private int counter = 0;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         t = GetComponent<Transform>();
+        splash.GetComponent<ParticleSystem>().enableEmission = false;
+        rb.useGravity = true;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //if (counter % 2 == 0) rb.useGravity = false;
+        //else rb.useGravity = true;
+        //++counter;
+        splash.GetComponent<ParticleSystem>().enableEmission = true;
+        StartCoroutine(stop());
+    }
+
+    IEnumerator stop()
+    {
+        yield return new WaitForSeconds(1.0f);
+        splash.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
     // Update is called once per frame
