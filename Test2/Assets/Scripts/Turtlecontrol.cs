@@ -69,12 +69,12 @@ public class Turtlecontrol : MonoBehaviour
         rotateX = new Vector3(x, 0, 0);
         rotateY = new Vector3(0, y * -1, 0);
 
-        if(!(x > 180 || x < -180) && !(y > 180 || y < -180)) {
+        if(!(x > 180 || x < -180) && !(y > 270 || y < -270)) {
           transform.eulerAngles -= rotateX + rotateY;
         }
         else if(x > 180 || x < -180)
           transform.eulerAngles -= rotateY;
-        else if(y > 180 || y < -180)
+        else if(y > 270 || y < -270)
           transform.eulerAngles -= rotateX;
 
 
