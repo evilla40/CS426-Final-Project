@@ -10,6 +10,8 @@ public class Turtlecontrol : MonoBehaviour
     public float rotationSpeed = 90;
     public float force = 700f;
     public Transform splash;
+    public AudioClip sound;
+    public AudioSource source;
     //private int counter = 0;
 
 
@@ -26,6 +28,7 @@ public class Turtlecontrol : MonoBehaviour
         //if (counter % 2 == 0) rb.useGravity = false;
         //else rb.useGravity = true;
         //++counter;
+        source.PlayOneShot(sound);
         splash.GetComponent<ParticleSystem>().enableEmission = true;
         StartCoroutine(stop());
     }

@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1265
     height: 573
-  m_MinSize: {x: 915, y: 448}
-  m_MaxSize: {x: 22010, y: 10024}
+  m_MinSize: {x: 917, y: 448}
+  m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 59
+  controlID: 64
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 96
+  controlID: 134
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,8 +214,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 573
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -241,8 +241,8 @@ MonoBehaviour:
     y: 0
     width: 550
     height: 329
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -516,10 +516,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 289.50073}
-      m_SelectedIDs: 3c0f0000
-      m_LastClickedID: 3900
-      m_ExpandedIDs: fafaffffb8fbffffd4fbffffce0e0000e80e00003c0f00006c0f00008e0f0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3a0f0000
+      m_LastClickedID: 3898
+      m_ExpandedIDs: d4fbffff3a0f00006a0f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,7 +709,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 807}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &18
