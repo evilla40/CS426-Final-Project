@@ -8,6 +8,9 @@ public class SwitchDisplays : MonoBehaviour
     public Camera miniMapCam;
     void Start()
     {
+      RenderSettings.fogColor = Camera.main.backgroundColor;
+      RenderSettings.fogDensity = 0.01f;
+      //RenderSettings.fog = true;
         firstPersonCam.enabled = true;
         miniMapCam.enabled = false;
     }
@@ -20,11 +23,20 @@ public class SwitchDisplays : MonoBehaviour
           if(firstPersonCam.enabled) {
             firstPersonCam.enabled = false;
             miniMapCam.enabled = true;
+            ChangeFog();
           }
           else { //means firstPersonCam is disabled
             firstPersonCam.enabled = true;
             miniMapCam.enabled = false;
+            ChangeFog();
           }
         }
+    }
+
+    void ChangeFog() {
+      // if(RenderSettings.fog)
+      //   RenderSettings.fog = false;
+      // else
+      //   RenderSettings.fog = true;
     }
 }

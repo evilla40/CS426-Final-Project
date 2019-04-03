@@ -12,6 +12,12 @@ public class Turtlecontrol : MonoBehaviour
     public Transform splash;
     public AudioClip sound;
     public AudioSource source;
+    private float x;
+    private float y;
+    private Vector3 rotateX;
+    private Vector3 rotateY;
+
+
     //private int counter = 0;
 
 
@@ -42,7 +48,7 @@ public class Turtlecontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Basic WASD movement
         if (Input.GetKey(KeyCode.W))
             rb.velocity += this.transform.forward * speed * Time.deltaTime;
         else if (Input.GetKey(KeyCode.S))
@@ -55,6 +61,23 @@ public class Turtlecontrol : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
             rb.AddForce(t.up * force);
+
+        //Basic rotation using mouse axis
+        y = Input.GetAxis("Mouse X");
+        x = Input.GetAxis("Mouse Y");
+        Debug.Log(x + ":" + y);
+        rotateX = new Vector3(x, 0, 0);
+        rotateY = new Vector3(0, y * -1, 0);
+
+        if(!(x > 180 || x < -180) && !(y > 180 || y < -180)) {
+          transform.eulerAngles -= rotateX + rotateY;
+        }
+        else if(x > 180 || x < -180)
+          transform.eulerAngles -= rotateY;
+        else if(y > 180 || y < -180)
+          transform.eulerAngles -= rotateX;
+
+
 
 
     }
