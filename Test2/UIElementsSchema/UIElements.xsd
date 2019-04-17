@@ -1,6 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:editor="UnityEditor.Experimental.UIElements" xmlns:upm="UnityEditor.PackageManager.UI" xmlns:engine="UnityEngine.Experimental.UIElements" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="UnityEngine.Experimental.UIElements.xsd" namespace="UnityEngine.Experimental.UIElements" />
-  <xs:import schemaLocation="UnityEditor.PackageManager.UI.xsd" namespace="UnityEditor.PackageManager.UI" />
-  <xs:import schemaLocation="UnityEditor.Experimental.UIElements.xsd" namespace="UnityEditor.Experimental.UIElements" />
-</xs:schema>
+version https://git-lfs.github.com/spec/v1
+oid sha256:85de742a78b7bfc08915cce69c6146a8d821e6219604769724d1ffd0b53d7657
+size 641

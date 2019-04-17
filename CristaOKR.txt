@@ -1,4 +1,3 @@
-First tasks 03/18 - 03/20
-Research how mini maps work Monday by 12pm
-Implement outline of mini map Tuesday by 9pm
-Finish mini map Wednesday before class
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ef1c3f3801d82b18651c502b3f2ff2e7109ac2088742fd60ecfb97931a65354
+size 153

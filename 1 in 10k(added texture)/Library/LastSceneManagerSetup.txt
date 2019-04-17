@@ -1,4 +1,3 @@
-sceneSetups:
-- path: Assets/1 in 10k.unity
-  isLoaded: 1
-  isActive: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:80b63746632f045343785916211427e75d061a652b4b1187b6eb87d657d2a236
+size 71

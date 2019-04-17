@@ -1,27 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SharkController : MonoBehaviour
-{
-    float speed = 5.0f;
-    float origX;
-
-    // Use this for initialization
-    void Start()
-    {
-        origX = transform.position.x;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(speed * Time.deltaTime, 0, 0);
-
-        if (Mathf.Abs(origX - transform.position.x) > 22.0f)
-        {
-            speed *= -1.0f; //change direction
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:647e42498608f005dc282c3ace1e9da08fceb80e803f768a3a0146010baa648f
+size 560

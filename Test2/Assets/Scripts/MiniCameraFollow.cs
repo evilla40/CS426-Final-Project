@@ -1,19 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MiniCameraFollow : MonoBehaviour {
-  public Transform followTarget;
-  Vector3 offset;
-  public void Setup() {
-    offset = transform.position - followTarget.position;
-    transform.SetParent(null);
-  }
-
-  void LateUpdate() {
-    if(followTarget != null) {
-      transform.position = followTarget.position + offset;
-      transform.rotation = Quaternion.LookRotation(-followTarget.up, followTarget.forward);
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae0873ced05286d17095d8996926c8ea2b491b3c64b73da641733450b6cd527a
+size 531

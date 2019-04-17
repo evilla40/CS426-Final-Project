@@ -1,25 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Splash : MonoBehaviour
-{
-    public ParticleSystem ps;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        ps.Play();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7c7c80fa04b7d9eabb4ee3d1d428751c19a73028ca949fe14a0f78cc109c987
+size 428

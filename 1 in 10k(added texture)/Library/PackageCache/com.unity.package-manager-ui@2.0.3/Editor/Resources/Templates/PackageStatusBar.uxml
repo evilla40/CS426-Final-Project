@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML 
-        xmlns:engine="UnityEngine.Experimental.UIElements" 
-        xmlns:upm="UnityEditor.PackageManager.UI"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="UnityEngine.Experimental.UIElements UIElementsSchema/UnityEngine.Experimental.UIElements.xsd
-                            UnityEditor.PackageManager.UI UIElementsSchema/UnityEditor.PackageManager.UI.xsd">
-    <engine:VisualElement name="statusBarContainer">
-        <engine:VisualElement name="loadingContainer">
-            <engine:VisualElement name="loadingSpinnerContainer" class="loading">
-                <upm:LoadingSpinner name="packageSpinner" class="spinner"/>
-            </engine:VisualElement>
-            <engine:Label name="loadingIcon"/>
-            <engine:Label name="loadingText"/>
-        </engine:VisualElement>
-        <engine:Button name="moreAddOptionsButton" text="+"/>
-    </engine:VisualElement>
-    <upm:PackageAddFromUrlField name="packageAddFromUrlField"/>
-</engine:UXML>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c251955a679aa3b51a0f1f6799d56135b984f40d6f3c04820853d2081e4b7ccf
+size 1055

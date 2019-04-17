@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<doc>
-  <members>
-    <assembly>
-      <name>UnityEngine.FileSystemHttpModule</name>
-    </assembly>
-    <member name="A:UnityEngine.FileSystemHttpModule">
-      <summary>
-        <para>HTTP Virtual File System. Allows file I/O over HTTP</para>
-      </summary>
-    </member>
-  </members>
-</doc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e728e3d82baf73fc14794d9a62c6eb4cc33fea1b4049f1839409e34a5b38f4fb
+size 352

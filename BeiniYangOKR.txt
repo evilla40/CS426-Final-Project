@@ -1,6 +1,3 @@
-Schedule and deliverable:
-
-Finish building unity model by monday 12PM (estimate:4hrs)
-Getting game sketch for the presentation by monday 12pm(extimate 1 hrs)
-Other background research(turtle information)by wednesday(1hrs)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ab837233ffd47e96d51143cb5e274e0630d335e608e9a4c01543272b9ea86e7
+size 229

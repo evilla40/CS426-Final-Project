@@ -1,18 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
-
-public class LevelReset :MonoBehaviour , IPointerClickHandler
-{
-    public void OnPointerClick(PointerEventData data)
-    {
-        // reload the scene
-        SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
-    }
-
-
-    private void Update()
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fe61bf783864b452e36e482d134769e16a18c42619e173816d9d981307d853e
+size 384
