@@ -1,3 +1,5 @@
+5a98edfb888b44806dc940cf316f12de filter=lfs diff=lfs merge=lfs -text
+b6a3626d0d3f4e1e7c2b20feebae97c2 filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.collabignore filter=lfs diff=lfs merge=lfs -text
