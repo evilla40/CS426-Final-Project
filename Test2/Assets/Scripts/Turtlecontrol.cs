@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Turtlecontrol : MonoBehaviour
@@ -12,10 +13,13 @@ public class Turtlecontrol : MonoBehaviour
     public Transform splash;
     public AudioClip sound;
     public AudioSource source;
+    public Slider healthBar;
     private float x;
     private float y;
     private Vector3 rotateX;
     private Vector3 rotateY;
+    private float health;
+    
 
 
     //private int counter = 0;
@@ -27,6 +31,14 @@ public class Turtlecontrol : MonoBehaviour
         t = GetComponent<Transform>();
         splash.GetComponent<ParticleSystem>().enableEmission = false;
         rb.useGravity = true;
+        health = 100;
+        healthBar.value = 1;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Shark")
+            health -= (Random.Range(15, 30));
     }
 
     private void OnTriggerEnter(Collider other)
@@ -76,6 +88,18 @@ public class Turtlecontrol : MonoBehaviour
           transform.eulerAngles -= rotateY;
         else if(y > 270 || y < -270)
           transform.eulerAngles -= rotateX;
+
+        if (health < 10)
+            health += (Time.deltaTime / 10);
+        else if (health < 30)
+            health += (Time.deltaTime / 8);
+        else if (health < 50)
+            health += (Time.deltaTime / 6);
+        else if (health < 70)
+            health += (Time.deltaTime / 4);
+        else if (health < 100)
+            health += (Time.deltaTime / 2);
+        healthBar.value = (health / 100);
 
 
 
